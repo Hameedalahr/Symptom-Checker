@@ -62,12 +62,11 @@
 <body>
     <div class="container">
         <h1>Symptom Checker</h1>
-       <form action="/predict" method="post">
-    <label for="symptom">Enter your symptom:</label>
-    <input type="text" id="symptom" name="symptoms" placeholder="E.g., fever, headache, etc." required>
-    <button type="submit">Check</button>
-</form>
-
+        <form action="/predict" method="POST">
+            <label for="symptoms">Enter Symptoms:</label>
+            <input type="text" id="symptoms" name="symptoms" required placeholder="e.g., fever, cough">
+            <button type="submit">Get Recommendations</button>
+        </form>
     </div>
 </body>
 </html>
