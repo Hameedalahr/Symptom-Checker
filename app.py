@@ -5,7 +5,8 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 from fuzzywuzzy import process  # Fuzzy matching for symptom correction
 
-app = Flask(__name__)
+# Specify the root directory as the template folder
+app = Flask(__name__, template_folder='.')
 
 # Sample dataset for Symptoms and corresponding Medicines and Diet
 data = {
@@ -51,8 +52,6 @@ data = {
         'Cooling foods, water', 'Omega-3 rich foods', 'Warming foods, ginger tea',
         'Low fat, low sugar foods', 'Heart-healthy foods'
     ]
-
-    # Your data here
 }
 
 # Convert dictionary to DataFrame
