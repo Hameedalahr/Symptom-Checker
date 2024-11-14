@@ -1,7 +1,8 @@
 # Symptom-Checker
 The main goal of the chatbot is to provide users with personalized medicine and diet recommendations based on their symptoms.
 Here's a structured README file for GitHub based on the provided project details:
-
+![imgalt](https://github.com/Hameedalahr/Symptom-Checker/blob/a7f1d02e3232435a316fb8f8b2bed5db1a2b9a30/Screenshot%202024-11-14%20122442.png)
+![imgalt](https://github.com/Hameedalahr/Symptom-Checker/blob/a7f1d02e3232435a316fb8f8b2bed5db1a2b9a30/Screenshot%202024-11-14%20122451.png)
 ---
 
 # Health Assistant Chatbot
